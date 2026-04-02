@@ -12,9 +12,9 @@ while  n==0:
     
     if x>=25:
         print("La temperatura es Calurosa.")
-    elif 9<x<25:
+    elif 10<x<25:
         print("La temperatura es Templada.")
-    elif x<10:
+    elif x<=10:
         print("La temperatura esta Fria.")
     n = int(input("Desea ingresar otra temperatra?: Si=0/No=1: "))
 

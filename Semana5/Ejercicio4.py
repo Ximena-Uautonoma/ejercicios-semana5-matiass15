@@ -4,6 +4,8 @@ Solicita repetidamente:
 1 si asistió
 0 para terminar
 Al final, muestra cuántos días asistió.'''
+#asistencia
+
 
 
 
