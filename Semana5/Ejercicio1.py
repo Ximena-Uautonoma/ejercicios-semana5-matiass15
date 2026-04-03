@@ -9,6 +9,8 @@
 clave ="abc123"
 ingreso = "algo"
 while clave != ingreso:
-    ingreso = input("Ingrese clave por favor")
+    ingreso = input("Ingrese clave por favor: ")
+    if clave != ingreso:
+        print("Clave incorrecta, Intente nuevamente")
 
 print("Clave ingresada corretamente, Hasta luego")
